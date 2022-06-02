@@ -1,6 +1,6 @@
 # colorFlipper
 # Color Flipper
-
+[Look at the project](https://birkan-dogan.github.io/colorFlipper/) <br>
 The project is really educational for using JavaScript in DOM. The outcomes are making a body relational with the button. The color was taken from array items thanks to JS. And here a responsive page with DOM
 
 ![image](https://user-images.githubusercontent.com/101419153/171748999-723b93e6-b0b8-4538-9c77-ef9c66ef474c.png) <br>
