@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+}
+nav {
+  background-color: aliceblue;
+  padding: 1rem;
+  height: 10vh;
+  box-shadow: 2px 2px 20px 2px black;
+}
+nav .nav-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .nav-center .list ul {
+  list-style-type: none;
+}
+nav .nav-center .list ul li {
+  display: inline-block;
+  transition: all 0.5s;
+}
+nav .nav-center .list ul li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 1rem;
+  transition: all 0.5s;
+}
+nav .nav-center .list ul li:hover {
+  transform: scale(1.2);
+}
+nav .nav-center .list ul li a:hover {
+  color: rebeccapurple;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+main .container {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  border-radius: 3rem;
+}
+main .btn {
+  margin-top: 2rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  width: 15vw;
+  padding: 1rem;
+  background-color: rgb(216, 195, 195);
+  border-radius: 1rem;
+  border: none;
+  text-transform: uppercase;
+}
+@media (max-width: 892px) {
+  body {
+    font-size: 1.2rem;
+  }
+  main .btn {
+    padding: 0.2rem;
+    width: 20vw;
+    font-size: 0.7rem;
+    /* background-color: aqua; */
+  }
+}
+@media (max-width: 553px) {
+  main .container h2 {
+    font-size: 1rem;
+  }
+}
+/* @media (max-width: 468px) {
+    main .container h2 {
+      font-size: 1rem;
+    }
+  } */
